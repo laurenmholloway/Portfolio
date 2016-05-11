@@ -1,0 +1,21 @@
+/*HOMEPAGE -- NAME HEADING*/
+html {
+  margin:0px;
+}
+#nameHeading {
+  background-color:#37BC9B;
+  padding:1%;
+  border-bottom-color:#48CFAD;
+  border-bottom-style:solid;
+  border-bottom-width:10px;
+  margin:0px;
+  text-align:center;
+  color:#F5F7FA;
+}
+/*HOMEPAGE -- MAIN SECTION WITH DEVELOPER AND IMAGE*/
+#main {
+  background-color:#3C4E56;
+}
+#mainImage {
+  width:45%;
+}
