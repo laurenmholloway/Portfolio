@@ -11,11 +11,12 @@
 
   <link href='https://fonts.googleapis.com/css?family=Amaranth:700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="animate(1).css" rel="stylesheet" type="text/css" />
   <link href="reset.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+  <script src="myScripts.js"></script>
 </head>
 
 <body>
@@ -27,21 +28,21 @@
   <!--Start of Main Section with image-->
   <div class="row col-md-12" style="margin-right:0px" id="main">
     <div class="col-md-6" style="padding-left:0px">
-       <img id="mainImage" src="images/meportrough.png" alt="Lauren Holloway main photo" /> 
+      <img id="mainImage" src="images/meportrough.png" alt="Lauren Holloway main photo" />
     </div>
-    
+
     <div class="col-md-6">
       <img id="developerImage" src="ArtworkLogos/developerImg.png" alt="Software Developer" />
-        <p class="headerP">
-          Hi. My name is Lauren. Welcome to my portfolio. <br/>I'm a software developer and currently working on my Masters Degree in Software Engineering with a concentration in Real-Time Gaming.
-        </p>
+      <p class="headerP">
+        Hi. My name is Lauren. Welcome to my portfolio. <br/>I'm a software developer and currently working on my Masters Degree in Software Engineering with a concentration in Real-Time Gaming.
+      </p>
       <p class="headerP">
         Don't be shy. Take a look around!
       </p>
-      <div style="width:85%; margin-top:5%;">
-      <p id="downGlyph">
-        <span class="glyphicon glyphicon-chevron-down"></span>
-      </p>
+      <div style="width:85%; margin-top:5%">
+        <p id="downGlyph" onload="flash()">
+          <span id="arrow" class="glyphicon glyphicon-chevron-down"></span>
+        </p>
       </div>
     </div>
   </div>
