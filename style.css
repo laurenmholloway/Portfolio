@@ -1,6 +1,6 @@
 /*HOMEPAGE -- NAME HEADING*/
 html {
-  margin:0px;
+  width:100%;
 }
 #nameHeading {
   background-color:#37BC9B;
@@ -11,11 +11,35 @@ html {
   margin:0px;
   text-align:center;
   color:#F5F7FA;
+  font-family:'Amaranth', sans-serif;
+  font-size:30px;
 }
 /*HOMEPAGE -- MAIN SECTION WITH DEVELOPER AND IMAGE*/
 #main {
   background-color:#3C4E56;
 }
 #mainImage {
-  width:45%;
+  width:100%;
 }
+#developerImage {
+  width:75%;
+  vertical-align:text-bottom;
+  text-align:center;
+  margin:auto;
+  margin-top:20%;
+}
+.headerP {
+  color:#F5F7FA;
+  font-family: 'Open Sans', sans-serif;
+  font-size:22px;
+  margin-top:3%;
+  width:85%;
+  text-align:center;
+  line-height:30px;
+}
+#downGlyph {
+  font-size:60px;
+  color:#F5F7FA;
+  text-align:center;
+}
+
