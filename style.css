@@ -4,7 +4,7 @@ html {
 }
 #nameHeading {
   background-color:#37BC9B;
-  padding:1%;
+  padding:.5%;
   border-bottom-color:#48CFAD;
   border-bottom-style:solid;
   border-bottom-width:10px;
@@ -16,7 +16,9 @@ html {
 }
 /*HOMEPAGE -- MAIN SECTION WITH DEVELOPER AND IMAGE*/
 #main {
-  background-color:#3C4E56;
+  /*background-color:#3C4E56;*/
+  background-image:url(ArtworkLogos/portbackground2.png);
+  background-size:cover;
 }
 #mainImage {
   width:100%;
@@ -42,4 +44,14 @@ html {
   color:#F5F7FA;
   text-align:center;
 }
+
+/*Navbar Affix*/
+.affix {
+    top: 0;
+    width: 100%;
+  }
+
+.affix + .container-fluid {
+    padding-top: 70px;
+  }
 
